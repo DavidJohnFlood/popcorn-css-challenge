@@ -5,12 +5,16 @@ Header Text - #553100
 Main background - #D4A76A */
 
 header button {
-  width: 200px;
-  height: 100px;
+  width: 160px;
+  height: 80px;
   background-color: #805215;
   color: white;
   font-weight: bold;
   font-size: 30px;
+  border-width: 0px;
+  float: right;
+  margin: 10px;
+  text-align: center;
 }
 
 header {
@@ -31,8 +35,8 @@ body {
   margin: 0px;
 }
 
-.boxbutton button {
-  width: 200px;
+.boxbutton{
+  width: 100%;
   height: 100px;
   background-color: #805215;
   color: white;
@@ -40,49 +44,58 @@ body {
   font-size: 30px;
 }
 
-h2 {
+#toptext {
   text-align: center;
   font-size: 30px;
+  font-weight: bold;
+  align-self: center;
 }
 
 #leftbox {
   width: 20%;
   float: left;
   background:white;
-  margin-left: 200px;
+  margin-left: 6%;
   margin-top: 50px;
   margin-bottom: 50px;
   box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.35);
-  padding: 1%;
+  padding: 2%;
+  font-size: 30px;
+
 }
 #middlebox{
   width: 20%;
   float: left;
   background:white;
-  margin-left: 200px;
+  margin-left: 6%;
   margin-top: 50px;
   margin-bottom: 50px;
   box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.35);
-  padding: 1%;
+  padding: 2%;
+  font-size: 30px;
 }
 #rightbox{
   width: 20%;
   float: left;
   background:white;
-  margin-left: 200px ;
+  margin-left: 6%;
   margin-top: 50px;
   margin-bottom: 50px;
   box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.35);
-  padding: 1%;
+  padding: 2%;
+  font-size: 30px;
 }
 #widebox{
+  float: left;
   margin: 30px;
   color: #333333;
   background-color: white;
-  font-size: 30px;
+  /*font-size: 30px;*/
   width: 90%;
-  height: 200px;
+  /*height: 200px;*/
   /*margin-top: 500px;*/
   align-items: center;
   box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.35);
+  padding: 2%;
+  font-size: 30px;
 }
